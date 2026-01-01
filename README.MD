@@ -1,5 +1,7 @@
 環境構築
 Dockerビルド
+・git@github.com:rh22120301/contact-form-test.git
+・docker-compose up -d --build
 
 Laravel環境構築
 ・docker-compose up exec php bash
@@ -19,4 +21,5 @@ Laravel環境構築
 ・mysql  Ver 8.0.44
 ・Laravel Framework 8.83.8
 ・nginx/1.24.0 
+
 
