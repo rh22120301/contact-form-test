@@ -6,7 +6,7 @@ Dockerビルド
 Laravel環境構築
 ・docker-compose up exec php bash
 ・compmoser install
-・
+・cp .env.example .env
 ・php artisan key:generate
 ・php artisan migrate
 ・php artisan db:seed
@@ -21,5 +21,6 @@ Laravel環境構築
 ・mysql  Ver 8.0.44
 ・Laravel Framework 8.83.8
 ・nginx/1.24.0 
+
 
 
