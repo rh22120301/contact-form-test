@@ -1,0 +1,90 @@
+.admin__content{
+    background:white;
+    margin: 0 auto;
+    padding: 10px 30px 100px 30px;
+    max-width: 100%;
+}
+
+.admin__heading{
+    margin-bottom: 20px;
+    text-align: center;
+    color: #83755c;
+}
+
+.search__form-menu{
+    display:flex;
+    justify-content: space-between;
+}
+
+.search-form__button{
+    margin:0 auto;
+}
+
+.search-form__button-submit{
+    background: #695d54;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 2px;
+}
+
+th{
+    background: #695d54;
+    color:#fff
+}
+
+td{
+    background: #fff;
+    color:#695d54;
+}
+
+.modal-botton{
+    color: #695d54;
+    cursor: pointer;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 2px;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.modal-window {
+    background: #fff;
+    padding: 30px;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.delete-contact__button{
+    display: flex;
+    justify-content: center;
+}
+.delete-contact__button-submit{
+    background: #695d54;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 2px;
+}
+
+.modal-close{
+    color: #695d54;
+    cursor: pointer;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 2px;
+}
